@@ -2,14 +2,17 @@
 - client side for ios/android reddit app
 
 **Home Screen**
-<br />
-<img src="./screenshots/homeIOS.png" alt="IOS" width="100px">
-<img src="./screenshots/homeAndroid.png" alt="Android" width="100px">
+-IOS
+<img src="./screenshots/homeIOS.png" alt="IOS" width="200px">
+-Android
+<img src="./screenshots/homeAndroid.png" alt="Android" width="200px">
 
 **Post**
-<br />
-<img src="./screenshots/postIOS.png" alt="IOS" width="100px">
-<img src="./screenshots/postAndroid.png" alt="Android" width="100px">
+
+- IOS
+<img src="./screenshots/postIOS.png" alt="IOS" width="200px">
+- Android
+<img src="./screenshots/postAndroid.png" alt="Android" width="200px">
 
 ### Tech Stack
 - React-native, Redux

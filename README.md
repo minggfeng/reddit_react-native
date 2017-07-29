@@ -2,6 +2,7 @@
 - client side for ios/android reddit app
 
 **Home Screen**
+
 -IOS
 <img src="./screenshots/homeIOS.png" alt="IOS" width="200px">
 -Android

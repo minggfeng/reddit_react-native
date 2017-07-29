@@ -2,7 +2,7 @@
 - client side for ios/android reddit app
 
 **Home Screen**
-![Alt text](/screenshots/homeIOS.png=100x100 "Home IOS")
+![Alt text](/screenshots/homeIOS.png=20x40 "Home IOS")
 ![Alt text](/screenshots/homeAndroid.png?raw=true "Home Android")
 
 **Post**

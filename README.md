@@ -3,7 +3,7 @@
 
 **Home Screen**
 ![Alt text](/screenshots/homeIOS.png=20x40 "Home IOS")
-![Alt text](/screenshots/homeAndroid.png?raw=true "Home Android")
+![Alt text](/screenshots/homeAndroid.png=20x40 "Home Android")
 
 **Post**
 ![Alt text](/screenshots/postIOS.png?raw=true "Post Item IOS")

@@ -3,15 +3,17 @@
 
 **Home Screen**
 
--IOS
+- IOS
 <img src="./screenshots/homeIOS.png" alt="IOS" width="200px">
--Android
+
+- Android
 <img src="./screenshots/homeAndroid.png" alt="Android" width="200px">
 
 **Post**
 
 - IOS
 <img src="./screenshots/postIOS.png" alt="IOS" width="200px">
+
 - Android
 <img src="./screenshots/postAndroid.png" alt="Android" width="200px">
 

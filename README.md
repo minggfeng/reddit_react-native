@@ -2,13 +2,14 @@
 - client side for ios/android reddit app
 
 **Home Screen**
-![](./screenshots/homeIOS.png =100x)
+<br />
 <img src="./screenshots/homeIOS.png" alt="IOS" width="100px">
-![](./screenshots/homeAndroid.png=20x40)
+<img src="./screenshots/homeAndroid.png" alt="Android" width="100px">
 
 **Post**
-![Alt text](/screenshots/postIOS.png?raw=true "Post Item IOS")
-![Alt text](/screenshots/postAndroid.png?raw=true "Post Item Android")
+<br />
+<img src="./screenshots/postIOS.png" alt="IOS" width="100px">
+<img src="./screenshots/postAndroid.png" alt="Android" width="100px">
 
 ### Tech Stack
 - React-native, Redux

@@ -2,8 +2,8 @@
 - client side for ios/android reddit app
 
 **Home Screen**
-![Alt text](/screenshots/homeIOS.png=20x40 "Home IOS")
-![Alt text](/screenshots/homeAndroid.png=20x40 "Home Android")
+![Alt text](/screenshots/homeIOS.png=20x40)
+![Alt text](/screenshots/homeAndroid.png=20x40)
 
 **Post**
 ![Alt text](/screenshots/postIOS.png?raw=true "Post Item IOS")

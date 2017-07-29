@@ -3,6 +3,7 @@
 
 **Home Screen**
 ![](./screenshots/homeIOS.png =100x)
+<img src="./screenshots/homeIOS.png" alt="IOS" width="100px">
 ![](./screenshots/homeAndroid.png=20x40)
 
 **Post**

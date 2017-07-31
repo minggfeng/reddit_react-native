@@ -1,5 +1,27 @@
 import actions from './actions/index.js';
 
+const roundNumber = (num) => {
+  let count = 0;
+  let i = num;
+
+  while (i >= 10) {
+    count ++;
+    i = i / 10;
+  }
+
+  let divisor = 100 / (10 ** count);
+  let result = Math.round(num * divisor)/divisor;
+
+  switch(count) {
+    case 2:
+      return result;
+    case 1:
+      return Number.isInteger(result) ? `${result}.0` : result;
+    default:
+      return Number.isInteger(result * 10) ? `${result}0` : result;
+  }
+};
+
 export default {
   redditUrl: "https://www.reddit.com/.json",
   mapStateToProps: state => {
@@ -16,24 +38,31 @@ export default {
     }
   },
   convertNum: num => {
-    let divisor;
-    let round;
-    if (num >= 1000000000 && num < 1000000000000) {
-      divisor = Math.round(num/100000000)/10;
-      round = divisor - Math.floor(divisor) !== 0 ? divisor : `${divisor}.0`;
-      return `${round}b`
+    let letter;
+    let count = 0;
+    let i = num;
+
+    while (i > 1000 && num > 9999) {
+      count++;
+      i = i / 1000;
     }
-    if (num >= 1000000 && num < 1000000000) {
-      divisor = Math.round(num/100000)/10;
-      round = divisor - Math.floor(divisor) !== 0 ? divisor : `${divisor}.0`;
-      return `${round}m`
-    }
-    if (num >= 10000 && num < 1000000) {
-      divisor = Math.round(num/100)/10;
-      round = divisor - Math.floor(divisor) !== 0 ? divisor : `${divisor}.0`;
-      return `${round}k`;
-    } else {
-      return num;
-    }
+
+    switch(count) {
+      case 4:
+        letter = "t"
+      case 3:
+        letter = "b";
+        break;
+      case 2:
+        letter = "m";
+        break;
+      case 1: 
+        letter = "k";
+        break;
+      default:
+        break;
+    };
+    
+    return letter ? `${roundNumber(i)}${letter}` : num;
   }
 }
